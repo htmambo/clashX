@@ -115,4 +115,4 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')
       env:
         GITHUB_TOKEN: ${{ secrets.GITPAGE_TOKEN }}
-      run: 'curl -u yichengchen:$GITHUB_TOKEN -X POST https://api.github.com/repos/yichengchen/clashX/pages/builds -H "Accept: application/vnd.github.mister-fantastic-preview+json"'
+      run: 'curl -u htmambo:$GITHUB_TOKEN -X POST https://api.github.com/repos/htmambo/clashX/pages/builds -H "Accept: application/vnd.github.mister-fantastic-preview+json"'
