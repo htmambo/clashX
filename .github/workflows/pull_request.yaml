@@ -1,4 +1,4 @@
-name: ClashX
+name: ClashX-Pull-Request
 
 on: [ pull_request ]
 
